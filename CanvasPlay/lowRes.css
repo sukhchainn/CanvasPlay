@@ -1,0 +1,19 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	scroll-behavior: smooth;
+}
+
+canvas {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+  	border: 1px solid black; 
+	image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -o-crisp-edges;
+	-ms-interpolation-mode: nearest-neighbor; /* ie */ 
+  	image-rendering: crisp-edges; /* ff */ 
+  	image-rendering: pixelated; /* chrome */ 
+}
